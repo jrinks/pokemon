@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="main.js" defer ></script>
+
+
+<link rel="stylesheet" href="pokestyle.css">
+<title>Find Your Pokemon</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="row">
+            <div class="col-6">
+                <img src="http://pbs.twimg.com/profile_images/1258902531/WTFPicon2_400x400.png">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+          <form name="pokeData" id="pokeDataForm">
+            <label form="pokename">Pokenmon Name</label>
+            <input class="form control" type="text" name="pokemon" id="pokemonInput">
+            <button class="btn btn-success"  type="submit" id="submitbutton">Search Pokemon</button>
+        </form>
+        <button class="btn btn-info" onclick="clearData()">Clear Results</button>
+        </div>
+        <div class="pokeDisplay">
+
+
+        </section>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+</body>
+</html>
